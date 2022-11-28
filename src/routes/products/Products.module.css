@@ -1,0 +1,190 @@
+.container {
+	width: 100%;
+	padding: 20px 10px;
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+.productsBox {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 50px;
+}
+
+.productsLink {
+	margin: 10px;
+	padding: 10px;
+	/* display: flex; */
+	/* flex-wrap: wrap; */
+	width: 305px;
+	height: 480px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	text-decoration: none;
+}
+
+.productTitle {
+	margin-bottom: 10px;
+	font-size: 16px;
+	color: #111;
+}
+
+.productsText {
+	margin-bottom: 10px;
+	color: #111;
+	font-size: 16px;
+}
+
+.productsStars {
+	color: goldenrod;
+}
+
+.productsImg {
+	padding: 5px 10px;
+	width: 290px;
+	height: 290px;
+	object-fit: contain;
+}
+
+.climateBox a {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: #111;
+}
+
+.climateBox h4 {
+	margin-bottom: 8px;
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 700;
+}
+
+.climateBox p {
+	margin-left: 5px;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.departmentBox {
+	margin-top: 15px;
+}
+
+.departmentBox h5 {
+	font-size: 14px;
+	margin-bottom: 8px;
+}
+
+.departmentBox a {
+	font-size: 14px;
+	text-decoration: none;
+	color: #111;
+}
+
+.departmentBox p {
+	margin-bottom: 7px;
+	overflow: hidden;
+}
+
+.starBox {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.starBox h5 {
+	margin-bottom: 8px;
+}
+
+.starBox a {
+	margin-bottom: 6px;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.selectionBox {
+	margin-top: 8px;
+}
+
+.selectionBox a {
+	margin-bottom: 6px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	text-decoration: none;
+	color: #111;
+	font-size: 14px;
+}
+
+.priceBox {
+	margin-top: 15px;
+}
+
+.priceBox a {
+	text-decoration: none;
+	color: #111;
+	font-size: 14px;
+}
+
+.priceBox p {
+	margin-bottom: 6px;
+}
+
+.priceMin {
+	margin-top: 10px;
+	width: 60px;
+	padding: 5px 10px;
+	margin-right: 10px;
+}
+
+.priceMax {
+	margin-right: 10px;
+	margin-top: 10px;
+	width: 60px;
+	padding: 5px 10px;
+}
+
+.priceBtn {
+	padding: 5px 10px;
+	border-radius: 8px;
+	border: 1px solid #111;
+	background-color: #fff;
+	box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+}
+
+.priceBtn:hover {
+	border-color: #d5d9d9;
+}
+
+.dateBox {
+	margin-top: 15px;
+}
+
+.dateBox a {
+	text-decoration: none;
+	color: #111;
+	font-size: 14px;
+}
+
+.dateBox h5 {
+	margin-bottom: 8px;
+}
+
+.dateBox p {
+	margin-bottom: 6px;
+}
+
+.packagingBox {
+	margin-top: 15px;
+}
+
+.packagingBox h5 {
+	margin-bottom: 8px;
+}
+
+.packagingBox a {
+	text-decoration: none;
+	color: #111;
+	font-size: 14px;
+}

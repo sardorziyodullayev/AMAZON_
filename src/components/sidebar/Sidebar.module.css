@@ -1,0 +1,75 @@
+.sidebar{
+  width: 400px;
+  height: 100vh;
+  background-color: #fff;
+  position: fixed;
+  display: flex;
+  overflow: scroll;
+  overflow-x: hidden;
+  top: 0;
+  left: -430px;
+  z-index: 10;
+  transition: 0.5s;
+}
+
+.avatarBox {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  width: 400px;
+  height: 50px;
+  background-color: #232f3e;
+  z-index: 100;
+}
+
+.avatarImg{
+  width: 27px;
+  height: 25px;
+  color: #fff;
+}
+
+.avatarTitle{
+  margin-left: 10px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.active{
+ left: 0;
+ transition: 0.5s;
+}
+
+.close{
+  position: absolute;
+  left: 750px;
+  font-size: 30px;
+}
+
+.sidebarItem{
+  width: 100%;
+  padding: 15px 10px;
+  margin: 5px 0;
+}
+
+.sidebarWrapper{
+  width: 100%;
+  min-width: 400px;
+  height: 100%;
+}
+
+.sidebarOpen{
+  width: 100%;
+  min-width: 400px;
+  height: 100%;
+}
+
+.sidebarBox{
+  display: flex;
+  align-items: center;
+}
+
+.rightVector{
+  position: absolute;
+  right: 40px;
+}
